@@ -127,7 +127,7 @@ export class DataTableController {
    */
   calculatePageSize(){
     this.options.paging.size = Math.ceil(
-      this.options.internal.bodyHeight / this.options.rowHeight) + 1;
+      this.options.internal.bodyHeight / this.options.rowHeight);
   }
 
   /**
