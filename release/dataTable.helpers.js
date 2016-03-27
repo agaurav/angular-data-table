@@ -2109,7 +2109,7 @@
     }, {
       key: "calculatePageSize",
       value: function calculatePageSize() {
-        this.options.paging.size = Math.ceil(this.options.internal.bodyHeight / this.options.rowHeight) + 1;
+        this.options.paging.size = Math.ceil(this.options.internal.bodyHeight / this.options.rowHeight);
       }
     }, {
       key: "onSorted",
